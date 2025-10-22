@@ -1,0 +1,15 @@
+ALTER TABLE companies
+    ADD COLUMN country_id INTEGER,
+    ADD COLUMN division_id INTEGER,
+    ADD COLUMN district_id INTEGER,
+    ADD COLUMN thana INTEGER,
+    ADD COLUMN post_office INTEGER,
+    ADD COLUMN short_name VARCHAR(100),
+    ADD COLUMN code VARCHAR(100),
+    ADD COLUMN phone VARCHAR(25),
+    ADD COLUMN email VARCHAR(55),
+    ADD COLUMN website_url VARCHAR(55),
+    ADD COLUMN description TEXT,
+    ADD COLUMN address TEXT,
+    ADD COLUMN image VARCHAR(100),
+    ADD COLUMN status BOOLEAN DEFAULT true;

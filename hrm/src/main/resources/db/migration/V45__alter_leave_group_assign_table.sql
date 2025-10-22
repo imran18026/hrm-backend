@@ -1,0 +1,1 @@
+ALTER TABLE leave_assigns RENAME TO leave_group_assigns;

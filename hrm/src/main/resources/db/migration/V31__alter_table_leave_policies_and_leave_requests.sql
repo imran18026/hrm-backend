@@ -1,0 +1,7 @@
+
+ALTER TABLE leave_policies
+    ADD COLUMN tenure_required_days INT DEFAULT 0 NOT NULL,
+    ADD COLUMN allow_half_day BOOLEAN DEFAULT FALSE NOT NULL;
+
+ALTER TABLE leave_requests
+    ADD COLUMN half_day BOOLEAN DEFAULT FALSE NOT NULL;
